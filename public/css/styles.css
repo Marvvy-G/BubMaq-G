@@ -1,0 +1,158 @@
+
+
+  .carousel-inner{
+    padding-top: 50px;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    min-height: 100vh;
+    opacity: 0.8;
+}
+
+.slide{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    object-fit: cover;
+}
+.carousel-inner img {
+    padding: 0 50px;
+    width: 80px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.about{
+    background-image: url("https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    padding: 150px 150px;
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+}
+
+  .address{
+      margin: 0;
+    background-image: url("https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center ;
+      color: #fff;
+      justify-content: center;
+      text-align: center;
+      font-size: 20px;
+      padding :100px;
+  }
+  .phone{
+      color: #fff;
+      text-decoration: none;
+  }
+.contact{
+    color: #cccccc
+    ;
+}
+.message{
+    padding-top: 50px;
+text-align: center;
+}
+  .bakery{
+      background-image: url("https://images.pexels.com/photos/4913487/pexels-photo-4913487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+      color: #fff;
+      justify-content: center;
+      text-align: center;
+      padding: 100px;
+      font-size: 15px;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+
+.tourism{
+        background-image: url("https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        padding: 100px;
+        font-size: 15px;        
+        background-repeat: no-repeat;
+      
+}
+.sec{
+   margin: 0;
+    padding: 50px 20px;
+}
+.agriculture{
+    background-image: url("https://images.pexels.com/photos/6508404/pexels-photo-6508404.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    font-size: 15px;
+   
+    background-repeat: no-repeat;
+}
+
+.water{
+    background-image: url("https://images.pexels.com/photos/1126557/pexels-photo-1126557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.footer-bottom{
+    background-color: rgba(169, 169, 169, 0.11);
+}
+.p-3{
+    background-color: darkorchid;
+
+}
+.btn-block{
+    padding:20px 20px ;
+}
+.about-us{
+    justify-items: justify;
+    padding-top: 50px;
+    
+}
+
+.back{
+  padding-top:15px;
+}
+
+
+@media (max-width: 500px) {
+  
+  .sectors{
+    font-size: 18px;
+    margin-top: 20px;
+  }
+ .welcome {
+     
+     font-size: 20px;
+     }
+     .carousel-inner img {
+         background-size: cover;
+     }
+}
+
+@media (max-width: 300px) {
+  .welcome{
+    font-size: 30px;
+  }
+  .carousel-inner img {
+      background-size: cover;
+  }
+}
